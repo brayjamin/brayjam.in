@@ -1,0 +1,345 @@
+{
+   "content": {
+      "narcoleptic-shift": {
+         "source": "narcoleptic-shift.mp3",
+         "title": "Narcoleptic Shift",
+         "type": "audio",
+         "date": "Apr 1, 2019"
+      },
+      "lucid-cosmos": {
+         "source": "lucid-cosmos.mp3",
+         "title": "Lucid Cosmos",
+         "type": "audio",
+         "date": "Apr 16, 2019"
+      },
+      "obey-me": {
+         "source": "obey-me.mp3",
+         "title": "Obey Me",
+         "type": "audio",
+         "date": "Nov 12, 2018"
+      },
+      "revenge": {
+         "source": "revenge.mp3",
+         "title": "Revenge",
+         "type": "audio",
+         "date": "Nov 6, 2018"
+      },
+      "rise-again": {
+         "source": "rise-again.mp3",
+         "title": "Rise Again",
+         "type": "audio",
+         "date": "Apr 28, 2019"
+      },
+      "space": {
+         "source": "space.mp3",
+         "title": "Space",
+         "type": "audio",
+         "date": "May 25, 2019"
+      },
+      "time": {
+         "source": "time.mp3",
+         "title": "Time",
+         "date": "Jul 9, 2019",
+         "type": "audio"
+      },
+      "acid-rain": {
+         "source": "acid-rain.mp3",
+         "title": "Acid Rain",
+         "date": "Jul 10, 2019",
+         "type": "audio"
+      },
+      "wormholes": {
+         "source": "wormholes.mp3",
+         "title": "Wormholes",
+         "date": "Jul 11, 2019",
+         "type": "audio"
+      },
+      "nightmares": {
+         "source": "nightmares.mp3",
+         "title": "Nightmares",
+         "date": "Aug 2, 2019",
+         "type": "audio"
+      },
+      "gravity": {
+         "source": "gravity.mp3",
+         "title": "Gravity",
+         "date": "Aug 4, 2019",
+         "type": "audio"
+      },
+      "rise": {
+         "source": "rise.mp3",
+         "title": "Rise",
+         "date": "Sep 20, 2019",
+         "type": "audio"
+      },
+      "velocity": {
+         "source": "velocity.mp3",
+         "title": "Velocity",
+         "date": "Oct 18, 2019",
+         "type": "audio"
+      },
+      "destiny": {
+         "source": "destiny.mp3",
+         "title": "Destiny",
+         "date": "Nov 16, 2019",
+         "type": "audio"
+      },
+      "vengeance": {
+         "source": "vengeance.mp3",
+         "title": "Vengeance",
+         "date": "Jan 3, 2020",
+         "type": "audio"
+      },
+      "spectral": {
+         "source": "spectral.mp3",
+         "title": "Spectral",
+         "date": "Feb 15, 2020",
+         "type": "audio"
+      },
+      "prepare": {
+         "source": "prepare.mp3",
+         "title": "Prepare",
+         "date": "Feb 19, 2020",
+         "type": "audio"
+      },
+      "perpetual-groove": {
+         "source": "perpetual-groove.mp3",
+         "title": "Perpetual Groove",
+         "date": "Mar 15, 2020",
+         "type": "audio"
+      },
+      "temporal-odyssey": {
+         "source": "temporal-odyssey.mp3",
+         "title": "Temporal Odyssey",
+         "date": "Apr 25, 2020",
+         "type": "audio"
+      },
+      "diverge": {
+         "source": "diverge.mp3",
+         "title": "Diverge",
+         "date": "Jun 22, 2020",
+         "type": "audio"
+      },
+      "ancient-tales-remix": {
+         "source": "ancient-tales-remix.mp3",
+         "title": "Ancient Tales [remix]",
+         "date": "Dec 7, 2020",
+         "type": "audio"
+      },
+      "ambient-epoch": {
+         "source": "ambient-epoch.mp3",
+         "title": "Ambient Epoch",
+         "date": "Nov 25, 2020",
+         "type": "audio"
+      },
+      "chicken-dance": {
+         "source": "chicken-dance.mp3",
+         "title": "Chicken Dance",
+         "date": "Nov 26, 2020",
+         "type": "audio"
+      },
+      "caballistics": {
+         "source": "caballistics.mp3",
+         "title": "Caballistics",
+         "date": "Mar 27, 2021",
+         "type": "audio"
+      },
+      "falling-from-mars": {
+         "source": "falling-from-mars.mp3",
+         "title": "Falling From Mars",
+         "date": "Apr 10, 2021",
+         "type": "audio"
+      },
+      "permanence": {
+         "source": "permanence.mp3",
+         "title": "Permanenence",
+         "date": "Jun 8, 2021",
+         "type": "audio"
+      },
+      "amperage": {
+         "source": "amperage.mp3",
+         "title": "Amperage",
+         "date": "Jul 18, 2021",
+         "type": "audio"
+      },
+      "rituals": {
+         "source": "rituals.mp3",
+         "title": "Rituals",
+         "date": "Jul 19, 2021",
+         "type": "audio"
+      },
+      "elevator-from-hell": {
+         "source": "elevator-from-hell.mp3",
+         "title": "im led zeppelin",
+         "date": "Aug 22, 2021",
+         "type": "audio"
+      },
+      "element-10": {
+         "source": "element-10.mp3",
+         "title": "Element 10",
+         "date": "Aug 23, 2021",
+         "type": "audio"
+      },
+      "retro": {
+         "source": "retro.mp3",
+         "title": "Retro",
+         "date": "Nov 4, 2021",
+         "type": "audio"
+      }
+   },
+   "groups": {
+      "archives": {
+         "cover": "archives.jpg",
+         "members": [
+            "revenge",
+            "obey-me"
+         ],
+         "title": "Archives",
+         "type": "collection"
+      },
+      "the-beginning": {
+         "cover": "the-beginning.jpg",
+         "members": [
+            "narcoleptic-shift",
+            "lucid-cosmos"
+         ],
+         "title": "The Beginning",
+         "type": "collection"
+      },
+      "dimensional-odyssey": {
+         "cover": "dimensional-odyssey.jpg",
+         "members": [
+            "rise-again",
+            "space"
+         ],
+         "title": "Dimensional Odyssey",
+         "type": "collection"
+      },
+      "galaxies": {
+         "cover": "galaxies.jpg",
+         "members": [
+            "time",
+            "acid-rain",
+            "wormholes",
+            "nightmares"
+         ],
+         "title": "Galaxies",
+         "type": "collection"
+      },
+      "revolution": {
+         "cover": "revolution.jpg",
+         "members": [
+            "gravity",
+            "rise",
+            "velocity"
+         ],
+         "title": "Revolution",
+         "type": "collection"
+      },
+      "overdrive": {
+         "cover": "overdrive.jpg",
+         "members": [
+            "destiny",
+            "vengeance"
+         ],
+         "title": "Overdrive",
+         "type": "collection"
+      },
+      "vβ": {
+         "cover": "vβ.jpg",
+         "members": [
+            "spectral",
+            "prepare",
+            "perpetual-groove"
+         ],
+         "title": "vβ",
+         "type": "collection"
+      },
+      "temporal-odyssey": {
+         "cover": "temporal-odyssey.jpg",
+         "members": [
+            "temporal-odyssey"
+         ],
+         "title": "Temporal Odyssey",
+         "type": "single"
+      },
+      "continuum": {
+         "cover": "continuum.gif",
+         "members": [
+            "diverge",
+            "ancient-tales-remix"
+         ],
+         "title": "Continuum",
+         "type": "collection"
+      },
+      "limbo": {
+         "cover": "limbo.png",
+         "members": [
+            "ambient-epoch",
+            "chicken-dance"
+         ],
+         "title": "Limbo",
+         "type": "collection"
+      },
+      "damnation": {
+         "cover": "damnation.png",
+         "members": [
+            "caballistics",
+            "falling-from-mars"
+         ],
+         "title": "Damnation",
+         "type": "collection"
+      },
+      "permanence": {
+         "cover": "permanence.jpg",
+         "members": [
+            "permanence"
+         ],
+         "title": "Permanence",
+         "type": "single"
+      },
+      "ignition": {
+         "cover": "ignition.jpg",
+         "members": [
+            "amperage",
+            "rituals"
+         ],
+         "title": "Ignition",
+         "type": "collection"
+      },
+      "blind-tension": {
+         "cover": "blind-tension.jpg",
+         "members": [
+            "elevator-from-hell",
+            "element-10"
+         ],
+         "title": "Blind Tension",
+         "type": "collection"
+      },
+      "retro": {
+         "cover": "retro.gif",
+         "members": [
+            "retro"
+         ],
+         "title": "Retro",
+         "type": "single"
+      }
+   },
+   "index": [
+      "archives",
+      "the-beginning",
+      "dimensional-odyssey",
+      "galaxies",
+      "revolution",
+      "overdrive",
+      "vβ",
+      "temporal-odyssey",
+      "continuum",
+      "limbo",
+      "damnation",
+      "permanence",
+      "ignition",
+      "blind-tension",
+      "retro"
+   ]
+}

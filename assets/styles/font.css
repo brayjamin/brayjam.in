@@ -1,0 +1,49 @@
+@font-face {
+   font-family: 'Big Shoulders Display';
+   font-style: normal;
+   font-weight: 400;
+   src: url('../fonts/fC1_PZJEZG-e9gHhdI4-NBbfd2ys3SjJCx1czNDu.woff2') format('woff2');
+}
+
+@font-face {
+   font-family: 'Carter One';
+   font-style: normal;
+   font-weight: 400;
+   src: url('../fonts/q5uCsoe5IOB2-pXv9UcNExN8hA.woff2') format('woff2');
+}
+
+@font-face {
+   font-family: 'Grenze';
+   font-style: normal;
+   font-weight: 400;
+   src: url('../fonts/O4ZTFGb7hR12BxqH-GIm.woff2') format('woff2');
+}
+
+@font-face {
+   font-family: 'Ubuntu';
+   font-style: normal;
+   font-weight: 400;
+   font-display: swap;
+   src: url('../fonts/4iCs6KVjbNBYlgoKfw72.woff2') format('woff2');
+}
+
+@font-face {
+   font-family: 'Material Icons';
+   font-style: normal;
+   font-weight: 400;
+   src: url('../fonts/oPWQ_lt5nv4pWNJpghLP75WiFR4kLh3kvmvR.woff2') format('woff2');
+}
+
+@font-face {
+   font-family: 'Unica One';
+   font-style: normal;
+   font-weight: 400;
+   src: url('../fonts/DPEuYwWHyAYGVTSmalsRcd3e.woff2') format('woff2');
+}
+
+@font-face {
+   font-family: 'Acme';
+   font-style: normal;
+   font-weight: 400;
+   src: url('../fonts/RrQfboBx-C5_XxrBbg.woff2') format('woff2');
+}
