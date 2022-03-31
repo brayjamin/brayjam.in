@@ -58,8 +58,16 @@
                   <fill></fill>
                </grid>
             </block>
-            <block id="track-title-wrap" size="70px"><text id="track-title"></text></block>
-            <block id="track-album-wrap"size="30px"><text id="track-album"></text></block>
+            <block id="track-title-wrap" size="70px">
+               <text id="track-title"></text> 
+            </block>
+            <block id="track-album-wrap"size="30px"><text id="track-album"></text>
+            <img src="assets/images/soundcloud.png" width="45px" height="45px" class="sc"></block>
+
+            1
+
+
+             
             <fill class="interface-spacer" size="25px"></fill>
          </grid>
          <grid id="footer" size="50px" type="columns">
@@ -89,7 +97,7 @@
          </template>
          <template id="list-item">
             <grid id="list-item-${key}" class="list-item button" type="columns" size="20.16px">
-               <block size="20.16px" class="track-number"><text>${index + 1}.</text></block>
+               <block size="20.16px" class="track-number"><text>${(mplayer.group ? (mplayer.group.members.indexOf(member.source.slice(0, -4))) : 0) + 1}.</text></block>
                <block class="track-title"><text>${member.title}</text><text class="track-date">${member.date || ''}</text></block>
                <!--<block class="track-date"><text>${member.date || ''}</text></block>-->
             </grid>

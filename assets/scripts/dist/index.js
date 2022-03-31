@@ -11,11 +11,8 @@ var __spreadArray = (this && this.__spreadArray) || function (to, from, pack) {
 var $ = function (selector) {
     var targets = null;
     if (typeof selector === 'string') {
-        var elements = document.querySelectorAll(selector);
-        targets = [];
-        elements.forEach(function (element) {
-            targets.push(element);
-        });
+        //@ts-expect-error
+        targets = __spreadArray([], document.querySelectorAll(selector), true);
     }
     else if (selector.constructor.name === 'HTMLCollection') {
         //@ts-expect-error
@@ -230,7 +227,7 @@ var mplayer = {
         for (var _b = 0, _c = __spreadArray([], document.querySelectorAll('.list-item'), true); _b < _c.length; _b++) {
             var item = _c[_b];
             item.addEventListener('click', function (event) {
-                var key = event.currentTarget['id'].split('-').slice(2).join('-');
+                var key = event.currentTarget.id.split('-').slice(2).join('-');
                 mnav.state = "".concat(mnav.state.split('/')[0], "/").concat(key);
                 mplayer.refresh();
                 mpc.play(true);
@@ -427,6 +424,7 @@ var mpc = {
         }
     }
 };
+var index;
 fetch(mplayer.content + 'index.json')
     .then(function (data) { return data.json(); })
     .then(function (data) {

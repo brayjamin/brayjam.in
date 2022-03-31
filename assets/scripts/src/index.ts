@@ -2,11 +2,8 @@
 const $ = (selector: string | HTMLElement | HTMLCollection | Element | Document | HTMLDocument) => {
    let targets = null;
    if (typeof selector === 'string') {
-      const elements = document.querySelectorAll(selector);
-      targets = [];
-      elements.forEach(element => {
-         targets.push(element);
-      });
+      //@ts-expect-error
+      targets = [ ...document.querySelectorAll(selector) ];
    } else if (selector.constructor.name === 'HTMLCollection') {
       //@ts-expect-error
       targets = [ ...selector ];
@@ -199,9 +196,9 @@ const mplayer = {
          ui.list.innerHTML += eval('`' + ui.item.innerHTML + '`');
       });
       //@ts-expect-error
-      for (let item of [ ...document.querySelectorAll('.list-item') ] as HTMLElement[]) {
+      for (let item of [ ...document.querySelectorAll('.list-item') ]) {
          item.addEventListener('click', event => {
-            const key = event.currentTarget['id'].split('-').slice(2).join('-');
+            const key = event.currentTarget.id.split('-').slice(2).join('-');
             mnav.state = `${mnav.state.split('/')[0]}/${key}`;
             mplayer.refresh();
             mpc.play(true);
@@ -311,6 +308,7 @@ const mnav = {
       mnav.member = value.split('/')[1];
    }
 };
+
 /** Media player controller */
 const mpc = {
    play: (state?: boolean) => {
@@ -390,7 +388,7 @@ const mpc = {
       }
    }
 };
-
+let index: number;
 fetch(mplayer.content + 'index.json')
    .then(data => data.json())
    .then(data => {
