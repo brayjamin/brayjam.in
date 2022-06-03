@@ -6,6 +6,12 @@
          "type": "audio",
          "date": "Apr 1, 2019"
       },
+      "convocation-of-summer": {
+         "source": "convocation-of-summer.mp3",
+         "title": "Convocation of Summer",
+         "type": "audio",
+         "date": "May 31, 2022"
+      },
       "lucid-cosmos": {
          "source": "lucid-cosmos.mp3",
          "title": "Lucid Cosmos",
@@ -323,6 +329,14 @@
          ],
          "title": "Retro",
          "type": "single"
+      },
+      "klondike": {
+         "cover": "klondike.jpg",
+         "members": [
+            "convocation-of-summer"
+         ],
+         "title": "Klondike",
+         "type": "collection"
       }
    },
    "index": [
@@ -340,6 +354,7 @@
       "permanence",
       "ignition",
       "blind-tension",
-      "retro"
+      "retro",
+      "klondike"
    ]
 }
