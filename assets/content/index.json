@@ -6,12 +6,6 @@
          "type": "audio",
          "date": "Apr 1, 2019"
       },
-      "convocation-of-summer": {
-         "source": "convocation-of-summer.mp3",
-         "title": "Convocation of Summer",
-         "type": "audio",
-         "date": "May 31, 2022"
-      },
       "lucid-cosmos": {
          "source": "lucid-cosmos.mp3",
          "title": "Lucid Cosmos",
@@ -191,6 +185,24 @@
          "title": "Retro",
          "date": "Nov 4, 2021",
          "type": "audio"
+      },
+      "convocation-of-summer": {
+         "source": "convocation-of-summer.mp3",
+         "title": "Convocation of Summer",
+         "type": "audio",
+         "date": "May 31, 2022"
+      },
+      "charlatan-of-maturity": {
+         "source": "charlatan-of-maturity.mp3",
+         "title": "Charlatan of Maturity",
+         "type": "audio",
+         "date": "Aug 12, 2022"
+      },
+      "charlatan-of-maturity-instrumental": {
+         "source": "charlatan-of-maturity-instrumental.mp3",
+         "title": "[Instrumental]",
+         "type": "audio",
+         "date": "Aug 12, 2022"
       }
    },
    "groups": {
@@ -337,6 +349,15 @@
          ],
          "title": "Klondike",
          "type": "collection"
+      },
+      "charlatan-of-maturity": {
+         "cover": "charlatan-of-maturity.jpg",
+         "members": [
+            "charlatan-of-maturity",
+            "charlatan-of-maturity-instrumental"
+         ],
+         "title": "",
+         "type": "collection"
       }
    },
    "index": [
@@ -355,6 +376,7 @@
       "ignition",
       "blind-tension",
       "retro",
-      "klondike"
+      "klondike",
+      "charlatan-of-maturity"
    ]
 }
