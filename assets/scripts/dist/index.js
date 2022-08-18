@@ -7,6 +7,7 @@ var __spreadArray = (this && this.__spreadArray) || function (to, from, pack) {
     }
     return to.concat(ar || Array.prototype.slice.call(from));
 };
+console.log('ewugehwuiehwf');
 // placeholder ($) utility
 var $ = function (selector) {
     var targets = null;
@@ -630,4 +631,17 @@ $('.nav').on({
         }
     }
 });
+setInterval(function () {
+    if (window.innerWidth < 768) {
+        console.log('wefewf');
+        // hide album grid
+        $('#content').css({ display: 'none' });
+        $('#small-screen').css({ display: 'inline-block' });
+    }
+    else {
+        // show album grid
+        $('#content').css({ display: 'grid' });
+        $('#small-screen').css({ display: 'none' });
+    }
+}, 100);
 //# sourceMappingURL=index.js.map

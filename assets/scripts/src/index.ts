@@ -1,3 +1,5 @@
+console.log('ewugehwuiehwf');
+
 // placeholder ($) utility
 const $ = (selector: string | HTMLElement | HTMLCollection | Element | Document | HTMLDocument) => {
    let targets = null;
@@ -591,3 +593,15 @@ $('.nav').on({
       }
    }
 });
+setInterval(() => {
+   if (window.innerWidth < 768) {
+      console.log('wefewf');
+      // hide album grid
+      $('#content').css({ display: 'none' });
+      $('#small-screen').css({ display: 'inline-block' });
+   } else {
+      // show album grid
+      $('#content').css({ display: 'grid' });
+      $('#small-screen').css({ display: 'none' });
+   }
+}, 100);
