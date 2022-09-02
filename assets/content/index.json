@@ -203,6 +203,12 @@
          "title": "[Instrumental]",
          "type": "audio",
          "date": "Aug 12, 2022"
+      },
+      "memory-loss": {
+         "source": "memory-loss.mp3",
+         "title": "memory loss",
+         "type": "audio",
+         "date": "Aug 15, 2022"
       }
    },
    "groups": {
@@ -356,7 +362,15 @@
             "charlatan-of-maturity",
             "charlatan-of-maturity-instrumental"
          ],
-         "title": "",
+         "title": "Charlatan of Maturity",
+         "type": "collection"
+      },
+      "memory-loss": {
+         "cover": "memory-loss.jpg",
+         "members": [
+            "memory-loss"
+         ],
+         "title": "memory loss",
          "type": "collection"
       }
    },
@@ -377,6 +391,7 @@
       "blind-tension",
       "retro",
       "klondike",
-      "charlatan-of-maturity"
+      "charlatan-of-maturity",
+      "memory-loss"
    ]
 }
