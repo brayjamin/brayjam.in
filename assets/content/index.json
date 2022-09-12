@@ -209,6 +209,12 @@
          "title": "memory loss",
          "type": "audio",
          "date": "Aug 15, 2022"
+      },
+      "springtime-lilacs": {
+         "source": "springtime-lilacs.mp3",
+         "title": "springtime lilacs",
+         "type": "audio",
+         "date": "Sep 12, 2022"
       }
    },
    "groups": {
@@ -372,6 +378,14 @@
          ],
          "title": "memory loss",
          "type": "collection"
+      },
+      "springtime-lilacs": {
+         "cover": "springtime-lilacs.jpg",
+         "members": [
+            "springtime-lilacs"
+         ],
+         "title": "springtime lilacs",
+         "type": "collection"
       }
    },
    "index": [
@@ -392,6 +406,7 @@
       "retro",
       "klondike",
       "charlatan-of-maturity",
-      "memory-loss"
+      "memory-loss",
+      "springtime-lilacs"
    ]
 }
