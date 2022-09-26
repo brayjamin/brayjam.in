@@ -215,6 +215,12 @@
          "title": "springtime lilacs",
          "type": "audio",
          "date": "Sep 12, 2022"
+      },
+      "pls-n-ty": {
+         "source": "pls-n-ty.mp3",
+         "title": "pls & ty",
+         "type": "audio",
+         "date": "Sep 25, 2022"
       }
    },
    "groups": {
@@ -386,6 +392,14 @@
          ],
          "title": "springtime lilacs",
          "type": "collection"
+      },
+      "pls-n-ty": {
+         "cover": "pls-n-ty.jpg",
+         "members": [
+            "pls-n-ty"
+         ],
+         "title": "pls & ty (ft. Pasithea)",
+         "type": "collection"
       }
    },
    "index": [
@@ -407,6 +421,7 @@
       "klondike",
       "charlatan-of-maturity",
       "memory-loss",
-      "springtime-lilacs"
+      "springtime-lilacs",
+      "pls-n-ty"
    ]
 }
