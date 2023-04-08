@@ -188,6 +188,7 @@ const mplayer = {
          switch (mplayer.group.type) {
             case 'collection':
             case 'single':
+            case 'ep':
                member = mnav.data['content'][key];
                break;
             case 'compilation':
@@ -214,6 +215,7 @@ const mplayer = {
       switch (mplayer.group.type) {
          case 'collection':
          case 'single':
+         case 'ep':
             return mnav.data['content'][mnav.member];
          case 'compilation':
          case 'showcase':
@@ -228,8 +230,13 @@ const mplayer = {
       let title;
       switch (mplayer.group.type) {
          case 'collection':
-         case 'single':
             title = mplayer.group.title;
+            break;
+         case 'single':
+            title = 'Single';
+            break;
+         case 'ep':
+            title = `${mplayer.group.title} - EP`;
             break;
          case 'compilation':
          case 'showcase':
@@ -252,6 +259,13 @@ const mplayer = {
          });
       }
       history.replaceState(null, null, `${location.origin}${location.pathname}?state=${mnav.state}`);
+      resizeHeaderText();
+      const hoverList = document.getElementById('hover-list');
+      if (mplayer.group.members.length === 1) {
+         hoverList.classList.add('hide-hover-list');
+      } else {
+         hoverList.classList.remove('hide-hover-list');
+      }
    },
    repeat: 'none',
    resume: false,
@@ -310,6 +324,33 @@ const mnav = {
       mnav.member = value.split('/')[1];
    }
 };
+function resizeTitleText () {
+   const title = document.getElementById('track-title');
+   if (!title) return;
+   const textLength = title.textContent.length;
+   const maxFontSize = 70; // Maximum font size
+   const minFontSize = 30; // Minimum font size
+   const maxLength = 30; // Maximum text length
+   const fontSize = Math.max(minFontSize, maxFontSize - (textLength * (maxFontSize - minFontSize)) / maxLength);
+
+   title.style.fontSize = fontSize + 'px';
+}
+function resizeHeaderText () {
+   resizeTitleText();
+   const hoverList = document.getElementById('hover-list');
+   const headerText = hoverList.querySelector('text');
+   if (!headerText) return;
+   const textLength = headerText.textContent.length;
+   const maxFontSize = 23.5; // Maximum font size
+   const minFontSize = 10; // Minimum font size
+   const maxLength = 160; // Maximum text length
+   const fontSize = Math.max(minFontSize, maxFontSize - (textLength * (maxFontSize - minFontSize)) / maxLength);
+
+   headerText.style.fontSize = fontSize + 'px';
+}
+
+// Call the function on page load
+resizeHeaderText();
 
 /** Media player controller */
 const mpc = {
@@ -518,7 +559,10 @@ $('#flow-right, #flow-far-right').on({
 
 /** Hover list triggers */
 $('#hover-list').on({
-   mouseenter: () => $('#flow-center > img').css({ filter: 'blur(1px)' }),
+   mouseenter: () => {
+      if (mplayer.group.members.length === 1) return;
+      else $('#flow-center > img').css({ filter: 'blur(1px)' });
+   },
    mouseleave: () => $('#flow-center > img').css({ filter: null })
 });
 

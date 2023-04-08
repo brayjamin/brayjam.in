@@ -47,7 +47,7 @@
             <block id="cover-flow-wrap">
                <grid id="cover-flow" type="columns">
                   <fill></fill>
-                  <block id="flow-deep-left" class="flow-item"size="25px"></block>
+                  <block id="flow-deep-left" class="flow-item" size="25px"></block>
                   <block id="flow-far-left" class="flow-item" size="150px"></block>
                   <block id="flow-left" class="flow-item" size="150px"></block>
                   <block id="flow-center" class="flow-item" size="150px">
@@ -62,42 +62,45 @@
             <block id="track-title-wrap" size="70px">
                <text id="track-title"></text> 
             </block>
-            <block id="track-album-wrap"size="30px"><text id="track-album"></text></block>           
+            <block id="track-album-wrap" size="30px"><text id="track-album"></text></block>           
             <fill class="interface-spacer" size="25px"></fill>
-         </grid>
-         <grid id="footer" size="50px" type="columns">
-            <fill size="10px"></fill>
-            <block id="ctrl-prev" class="icon" size="45px">skip_previous</block>
-            <block id="ctrl-play" class="icon" size="45px">play_arrow</block>
-            <block id="ctrl-next" class="icon" size="45px">skip_next</block>
-            <block id="current" size="60px">00:00</block>
-            <block id="rail">
-               <block id="fill">
-                  <block id="knob"></block>
+            <fill size="-60px"></fill>
+            <grid id="footer" size="50px" type="columns">
+               <fill size="10px"></fill>
+               <block id="ctrl-prev" class="icon" size="45px">skip_previous</block>
+               <block id="ctrl-play" class="icon" size="45px">play_arrow</block>
+               <block id="ctrl-next" class="icon" size="45px">skip_next</block>
+               <block id="current" size="60px">00:00</block>
+               <block id="rail">
+                  <block id="fill">
+                     <block id="knob"></block>
+                  </block>
+                  <block id="buff"></block>
                </block>
-               <block id="buff"></block>
-            </block>
-            <block id="total" size="60px">00:00</block>
-            <block id="ctrl-volume" class="icon" size="45px">volume_up</block>
-            <block id="ctrl-repeat" class="icon" size="45px">repeat</block>
-            <block id="ctrl-shuffle" class="icon" size="45px">shuffle</block>
-            <fill size="10px"></fill>
-         </grid>
-      </grid>
-      <video hidden=""></video>
-      <block id="preload" hidden=""></block>
-      <block id="templates" hidden="">
-         <template id="list-header">
-            <block class="list-header"><text>${mplayer.group.title}</text></block>
-         </template>
-         <template id="list-item">
-            <grid id="list-item-${key}" class="list-item button" type="columns" size="20.16px">
-               <block size="20.16px" class="track-number"><text>${(mplayer.group ? (mplayer.group.members.indexOf(member.source.slice(0, -4))) : 0) + 1}.</text></block>
-               <block class="track-title"><text>${member.title}</text><text class="track-date">${member.date || ''}</text></block>
-               <!--<block class="track-date"><text>${member.date || ''}</text></block>-->
+               <block id="total" size="60px">00:00</block>
+               <block id="ctrl-volume" class="icon" size="45px">volume_up</block>
+               <block id="ctrl-repeat" class="icon" size="45px">repeat</block>
+               <block id="ctrl-shuffle" class="icon" size="45px">shuffle</block>
+               <fill size="10px"></fill>
             </grid>
-         </template>
-      </block>
+         </grid>
+         <video hidden=""></video>
+         <block id="preload" hidden=""></block>
+         <block id="templates" hidden="">
+            <template id="list-header">
+               <block class="list-header"><text>${mplayer.group.title}</text></block>
+            </template>
+            <template id="list-item">
+               <grid id="list-item-${key}" class="list-item button" type="columns">
+                 <block class="track-number"><text>${(mplayer.group ? (mplayer.group.members.indexOf(member.source.slice(0, -4))) : 0) + 1}.</text></block>
+                 <block class="track-info-container">
+                   <text class="track-title">${member.title}</text>
+                   <!-- <text class="track-date">${member.date || ''}</text> -->
+                 </block>
+               </grid>
+             </template>
+         </block>
+      </grid>
    </block>
    </grid>
 </body>

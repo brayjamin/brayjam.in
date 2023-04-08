@@ -164,7 +164,7 @@
       },
       "rituals": {
          "source": "rituals.mp3",
-         "title": "Rituals",
+         "title": "Rituals (no way thats crazy its a susser version of retro)",
          "date": "Jul 19, 2021",
          "type": "audio"
       },
@@ -200,7 +200,7 @@
       },
       "charlatan-of-maturity-instrumental": {
          "source": "charlatan-of-maturity-instrumental.mp3",
-         "title": "[Instrumental]",
+         "title": "Charlatan of Maturity - Instrumental",
          "type": "audio",
          "date": "Aug 12, 2022"
       },
@@ -218,9 +218,27 @@
       },
       "pls-n-ty": {
          "source": "pls-n-ty.mp3",
-         "title": "pls & ty",
+         "title": "pls & ty (feat. Pasithea)",
          "type": "audio",
          "date": "Sep 25, 2022"
+      },
+      "ornate-new-soul": {
+         "source": "ornate-new-soul.mp3",
+         "title": "ornate new soul / to be happy",
+         "type": "audio",
+         "date": "Nov 13, 2022"
+      },
+      "altered-state-of-mind": {
+         "source": "altered-state-of-mind.mp3",
+         "title": "altered state of mind",
+         "type": "audio",
+         "date": "Nov 28, 2022"
+      },
+      "rendezvous-proving-you-exist": {
+         "source": "rendezvous-proving-you-exist.mp3",
+         "title": "rendezvous proving you exist",
+         "type": "audio",
+         "date": "Nov 28, 2022"
       }
    },
    "groups": {
@@ -240,7 +258,7 @@
             "lucid-cosmos"
          ],
          "title": "The Beginning",
-         "type": "collection"
+         "type": "ep"
       },
       "dimensional-odyssey": {
          "cover": "dimensional-odyssey.jpg",
@@ -249,7 +267,7 @@
             "space"
          ],
          "title": "Dimensional Odyssey",
-         "type": "collection"
+         "type": "ep"
       },
       "galaxies": {
          "cover": "galaxies.jpg",
@@ -260,7 +278,7 @@
             "nightmares"
          ],
          "title": "Galaxies",
-         "type": "collection"
+         "type": "ep"
       },
       "revolution": {
          "cover": "revolution.jpg",
@@ -270,7 +288,7 @@
             "velocity"
          ],
          "title": "Revolution",
-         "type": "collection"
+         "type": "ep"
       },
       "overdrive": {
          "cover": "overdrive.jpg",
@@ -279,7 +297,7 @@
             "vengeance"
          ],
          "title": "Overdrive",
-         "type": "collection"
+         "type": "ep"
       },
       "vβ": {
          "cover": "vβ.jpg",
@@ -289,7 +307,7 @@
             "perpetual-groove"
          ],
          "title": "vβ",
-         "type": "collection"
+         "type": "ep"
       },
       "temporal-odyssey": {
          "cover": "temporal-odyssey.jpg",
@@ -306,7 +324,7 @@
             "ancient-tales-remix"
          ],
          "title": "Continuum",
-         "type": "collection"
+         "type": "ep"
       },
       "limbo": {
          "cover": "limbo.png",
@@ -315,7 +333,7 @@
             "chicken-dance"
          ],
          "title": "Limbo",
-         "type": "collection"
+         "type": "ep"
       },
       "damnation": {
          "cover": "damnation.png",
@@ -324,7 +342,7 @@
             "falling-from-mars"
          ],
          "title": "Damnation",
-         "type": "collection"
+         "type": "ep"
       },
       "permanence": {
          "cover": "permanence.jpg",
@@ -341,7 +359,7 @@
             "rituals"
          ],
          "title": "Ignition",
-         "type": "collection"
+         "type": "ep"
       },
       "blind-tension": {
          "cover": "blind-tension.jpg",
@@ -350,7 +368,7 @@
             "element-10"
          ],
          "title": "Blind Tension",
-         "type": "collection"
+         "type": "ep"
       },
       "retro": {
          "cover": "retro.gif",
@@ -366,7 +384,7 @@
             "convocation-of-summer"
          ],
          "title": "Klondike",
-         "type": "collection"
+         "type": "single"
       },
       "charlatan-of-maturity": {
          "cover": "charlatan-of-maturity.jpg",
@@ -375,7 +393,7 @@
             "charlatan-of-maturity-instrumental"
          ],
          "title": "Charlatan of Maturity",
-         "type": "collection"
+         "type": "single"
       },
       "memory-loss": {
          "cover": "memory-loss.jpg",
@@ -383,7 +401,7 @@
             "memory-loss"
          ],
          "title": "memory loss",
-         "type": "collection"
+         "type": "single"
       },
       "springtime-lilacs": {
          "cover": "springtime-lilacs.jpg",
@@ -391,7 +409,7 @@
             "springtime-lilacs"
          ],
          "title": "springtime lilacs",
-         "type": "collection"
+         "type": "single"
       },
       "pls-n-ty": {
          "cover": "pls-n-ty.jpg",
@@ -399,7 +417,24 @@
             "pls-n-ty"
          ],
          "title": "pls & ty (ft. Pasithea)",
-         "type": "collection"
+         "type": "single"
+      },
+      "into-the-abliss": {
+         "cover": "to-be-happy.jpg",
+         "members": [
+            "ornate-new-soul"
+         ],
+         "title": "ornate new soul / to be happy",
+         "type": "single"
+      },
+      "someplace": {
+         "cover": "someplace.jpg",
+         "members": [
+            "altered-state-of-mind",
+            "rendezvous-proving-you-exist"
+         ],
+         "title": "someplace.",
+         "type": "ep"
       }
    },
    "index": [
@@ -422,6 +457,8 @@
       "charlatan-of-maturity",
       "memory-loss",
       "springtime-lilacs",
-      "pls-n-ty"
+      "pls-n-ty",
+      "into-the-abliss",
+      "someplace"
    ]
 }
