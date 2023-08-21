@@ -238,6 +238,9 @@ const mplayer = {
          case 'ep':
             title = `${mplayer.group.title} - EP`;
             break;
+         case 'album':
+            title = `${mplayer.group.title} - Album`;
+            break;
          case 'compilation':
          case 'showcase':
             title = mnav.data['groups'][mnav.member.split(':')[0]].title;
@@ -278,6 +281,8 @@ const mplayer = {
 const mnav = {
    default: {},
    data: {},
+   // generally ,, this is the first area you will encounter an error
+   //( if JSON is incorrect )
    generate: (shuffle?: boolean) => {
       mnav.data = JSON.parse(JSON.stringify(mnav.default));
       if (shuffle) {
@@ -527,6 +532,7 @@ $('#ctrl-next').on({ click: () => mnav.next() });
 $('#ctrl-volume').on({ click: () => mpc.volume() });
 $('#ctrl-repeat').on({ click: () => mpc.repeat() });
 $('#ctrl-shuffle').on({ click: () => mpc.shuffle() });
+$('.hide-hover-list').on({ click: () => mpc.play() });
 
 /** Scrub triggers */
 $('#rail').on({
@@ -557,10 +563,17 @@ $('#flow-right, #flow-far-right').on({
    }
 });
 
+$('#flow-center').on({
+   click: () => {
+      if (mplayer.group['members'].length < 2) return;
+      mpc.play();
+   }
+});
+
 /** Hover list triggers */
 $('#hover-list').on({
    mouseenter: () => {
-      if (mplayer.group.members.length === 1) return;
+      if (mplayer.group['members'].length === 1) return;
       else $('#flow-center > img').css({ filter: 'blur(1px)' });
    },
    mouseleave: () => $('#flow-center > img').css({ filter: null })

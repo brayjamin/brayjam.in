@@ -36,7 +36,9 @@ text {
    text-overflow: ellipsis;
    display: inline-block;
 }
-
+.invert-svg {
+   filter: invert(100%);
+}
 #small-screen {
    /* center text, make bold and white 
    make text strech to width of screen
