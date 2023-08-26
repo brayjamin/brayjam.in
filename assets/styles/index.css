@@ -26,7 +26,7 @@ block {
 }
 
 body {
-   overflow: hidden;
+   overflow: auto;
    background-color: #000;
 }
 
@@ -58,7 +58,191 @@ text {
    background-repeat: repeat;
    padding: 20px;
    width: 75vw;
-   height: 90px; 
+   height: 90px;
+}
+@media (max-width: 767px) {
+   #emailPopup.active form {
+      width: 90%; /* Set the width to 90% for mobile */
+   }
+   /* Hide the HOME button on mobile */
+   .nav[name="home"] {
+      display: none;
+   }
+
+   /* Stretch the nav buttons to screen width */
+   .nav.button {
+      width: 100%;
+      text-align: center;
+      font-size: 90px; /* Adjust the font size */
+      color: #ffffff; /* Brighter color */
+      padding: 15px 0; /* Add padding for better touch target */
+   }
+
+   /* Adjust the font size and color for other links */
+   #nav a {
+      font-size: 28.5px; /* Adjust the font size */
+      color: #ffffff; /* Brighter color */
+      /* adjust text for better readabliity */
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      font-weight: 600;
+   }
+
+   /* Adjust the position of the logo and social icons */
+   #top img {
+      margin-top: 60px; /* Adjust the margin to move the logo down */
+   }
+
+   .social-icons {
+      top: 160px; /* Adjust the top value to move the icons down */
+   }
+   #nav {
+      margin-top: 160px;
+   }
+   #top::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5); /* Adjust the alpha value for desired darkness */
+      z-index: -1; /* Place the overlay behind the content */
+   }
+   /* Apply mobile styles for YouTube icon */
+   #nav a[href="https://www.youtube.com/@brayjamin"] i::before {
+      font-weight: 900; /* Bold weight for solid icons */
+      font-size: 103px; /* Adjust the size as needed */
+      color: #FF0000; /* YouTube red color */
+      margin-right: 10px; /* Add some spacing between icon and text */
+      transition: transform 0.2s ease-in-out;
+   }
+
+   /* Apply mobile styles for Spotify icon */
+   #nav a[href="https://open.spotify.com/artist/10TieUorqBTWR815JM3kwV?si=pIH5pR_9SbGzhjr2kCT-mQ"] i::before {
+      font-weight: 900; /* Bold weight for solid icons */
+      font-size: 103px; /* Adjust the size as needed */
+      color: #1DB954; /* Spotify green color */
+      margin-right: 10px; /* Add some spacing between icon and text */
+      animation: moveIcon 5s infinite linear reverse;
+   }
+
+   /* Hide the text labels on mobile */
+   #nav a[href="https://linktr.ee/brayjamin"] {
+      display: none;
+      text-indent: -9999px; /* Hide the text off-screen */
+   }
+   /* Apply additional icon styling
+   #nav a i::before {
+      text-shadow: 0 0 4.6px rgba(0, 0, 0, 0.296); /* Add white shadow */
+      transition: transform 0.2s ease-in-out, text-shadow 0.2s ease-in-out; /* Add smooth hover effect */
+   } */
+}
+@keyframes moveIcon {
+   0%, 100% {
+      transform: translateX(0);
+   }
+   50% {
+      transform: translateX(10px); /* Adjust the movement distance as needed */
+   }
+}
+@keyframes fadeIn {
+   from {
+      opacity: 0;
+   }
+   to {
+      opacity: 1;
+   }
+}
+
+#emailPopup {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background: rgba(0, 0, 0, 0.5);
+   z-index: 9999;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   display: none; /* Hide the popup initially */
+   animation: fadeIn 0.3s ease; /* Apply the animation */
+}
+
+#emailPopup.active {
+   display: flex; /* Show the popup when active class is added */
+}
+
+#emailPopup form {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   text-align: center;
+}
+
+
+
+/* Styling for the close button within the popup */
+#closePopup {
+   position: absolute;
+   top: 10px;
+   right: 10px;
+}
+@media (min-width: 768px) {
+   /* Create a dark blurred region around the navigation buttons */
+   .nav.button::before,
+   .nav.button::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.7), transparent); /* Adjust alpha value and color */
+      filter: blur(10px); /* Apply blur effect */
+      z-index: -1; /* Place the overlay behind the content */
+   }
+}
+/* Add these styles to your existing CSS or include in a separate stylesheet */
+.social-icons {
+   position: absolute;
+   top: 10px; /* Adjust the top value to position the icons vertically */
+   right: 10px; /* Adjust the right value to position the icons horizontally */
+   display: flex;
+   align-items: center;
+   gap: 0.33em; /* Adjust the gap between icons */
+   z-index: 1; /* Ensure the icons are above other content */
+}
+
+.social-icons a i {
+   font-size: 21px; /* Adjust the icon size */
+   color: white; /* Set the icon color to white */
+   padding: 0.375em; /* Adjust the padding to visually space out the icons */
+   border: 3px solid transparent; /* Add transparent border to maintain clickable area */
+   border-radius: 5px; /* Add border radius for visual appeal */
+   transition: border-color 0.2s; /* Add transition for hover effect */
+}
+
+.social-icons a i:hover {
+   border-color: rgba(255, 255, 255, 0.105); /* Change border color on hover for clickable effect */
+   cursor: pointer; /* Show "clickable" mouse cursor on hover */
+}
+
+.mailing-list-button {
+   background-color: #5e8eff;
+   color: white;
+   border: none;
+   padding: 12px 20px; /* Adjust padding for more space around the text */
+   border-radius: 10px; /* Add border radius for a rounded look */
+   cursor: pointer;
+   font-weight: bold;
+   transition: background-color 0.2s;
+}
+
+.mailing-list-button:hover {
+   background-color: #5069a3;
 }
 
 a,

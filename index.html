@@ -4,30 +4,81 @@
    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+   <link rel="canonical" href="https://brayjam.in">
+   <meta name="robots" content="index, follow">
    <link rel="manifest" href="/site.webmanifest">
    <script defer src="assets/scripts/dist/index.js"></script>
    <!--<script defer src="assets/scripts/dist/background.js"></script>-->
    <script src="assets/scripts/dist/css.js" href="assets/styles/index.css"></script>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description" content="brayjammin'">
+   <meta property="og:title" content="brayjamin">
+   <meta property="og:description" content="officially brayjammin'">
+   <meta property="og:image" content="https://brayjam.in/assets/images/abcdef.png">
+   <meta property="og:image:width" content="1200">
+   <meta property="og:image:height" content="1200">
+   <meta property="og:url" content="https://brayjam.in">
+   <meta name="twitter:card" content="summary_large_image">
+   <meta name="twitter:site" content="@brayjamin">
+   <meta name="twitter:title" content="brayjam.in">
+   <meta name="twitter:description" content="officially brayjammin'">
+   <meta name="twitter:image" content="https://yourwebsite.com/assets/abcdef.png">
+   <meta property="og:type" content="website">
    <meta name="author" content="brayjamin">
    <meta http-equiv="content-type" content="text/html">
    <meta name="keywords" content="brayjamin,garbo1234,music,electronic music,edm,music producer">
    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
-   <meta name="description" content="I make noise.">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body style="background: url('assets/images/test.jpg') no-repeat center center fixed; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;">
    <grid id="foreground" type="rows">
       <block id="top" size="90px" class="center">
+         <div class="social-icons">
+            <a href="https://twitter.com/@brayjamin" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/brayjamin.is.me/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://discord.gg/VGFmhKZrnT" target="_blank"><i class="fab fa-discord"></i></a>
+            <a><button id="joinButton" class="mailing-list-button">Join</button></a>
+         </div>
          <img src="assets/images/cover.svg" alt="Cover SVG Image" width="330" height="104.37" class="invert-svg">
-      </block>
+      </block>      
       <grid id="nav" size="80px" type="columns">
          <fill></fill>
-         <block active size="80px" name="home" class="nav button">HOME</block>
-         <block size="80px"><a href="https://discord.gg/WdKEMVs" target="_blank">DISCORD</a></block>
-         <block size="80px"><a href="https://linktr.ee/brayjamin" target="_blank">LINKTR.EE</a></block>
-         <block size="80px"><a href="https://open.spotify.com/artist/10TieUorqBTWR815JM3kwV?si=pIH5pR_9SbGzhjr2kCT-mQ" target="_blank">SPOTIFY</a></block>
+         <block active size="93.5px" name="home" class="nav button">HOME</block>
+         <block size="93.5px"><a href="https://www.youtube.com/@brayjamin" target="_blank">YOUTUBE</a></block>
+         <block size="93.5px"><a href="https://linktr.ee/brayjamin" target="_blank">LINKTR.EE</a></block>
+         <block size="93.5px"><a href="https://open.spotify.com/artist/10TieUorqBTWR815JM3kwV?si=pIH5pR_9SbGzhjr2kCT-mQ" target="_blank">SPOTIFY</a></block>
          <fill></fill>
       </grid>
-      <a id="small-screen">Your window isn't wide enough for my crappy media player! If you're still interested in ear pain, please widen your window, switch to landscape mode or listen on another streaming playform!</a>
+      <script>
+         // Function to add FontAwesome icons to <i> tags on mobile
+         function addFontAwesomeOnMobile() {
+            // Check if the screen width is less than or equal to 767px (mobile size)
+            if (window.innerWidth <= 767) {
+               // Replace YouTube text with the FontAwesome icon
+               var youtubeIcon = document.createElement('i');
+               youtubeIcon.classList.add('fab', 'fa-youtube');
+   
+               var youtubeLink = document.querySelector('#nav a[href="https://www.youtube.com/@brayjamin"]');
+               youtubeLink.innerHTML = ''; // Clear existing content
+               youtubeLink.appendChild(youtubeIcon);
+   
+               // Replace Spotify text with the FontAwesome icon
+               var spotifyIcon = document.createElement('i');
+               spotifyIcon.classList.add('fab', 'fa-spotify');
+   
+               var spotifyLink = document.querySelector('#nav a[href="https://open.spotify.com/artist/10TieUorqBTWR815JM3kwV?si=pIH5pR_9SbGzhjr2kCT-mQ"]');
+               spotifyLink.innerHTML = ''; // Clear existing content
+               spotifyLink.appendChild(spotifyIcon);
+            }
+         }
+   
+         // Run the function initially
+         addFontAwesomeOnMobile();
+   
+         // Attach the function to the window resize event
+         window.addEventListener('resize', addFontAwesomeOnMobile);
+      </script>
       <grid active id="content" type="rows" name="home" class="page">
          <grid id="interface" type="rows">
             <fill class="interface-spacer" size="25px"></fill>
@@ -90,4 +141,36 @@
       </grid>
    </block>
    </grid>
+   <script async type="text/javascript" src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=Sm94GD"></script>
+   <script>
+      function openKlaviyoForm() {
+        window._klOnsite = window._klOnsite || [];
+        window._klOnsite.push(['openForm', 'TWDFkd']);
+      }
+    
+      document.getElementById('joinButton').addEventListener('click', openKlaviyoForm);
+      const coverFlow = document.getElementById('cover-flow');
+      const coverFlowItems = coverFlow.querySelectorAll('.flow-item');
+      let activeItem = 2;
+    </script>
+   <script>
+      // Get references to the buttons and popup
+      const showPopupButton = document.getElementById('showPopup');
+      const emailPopup = document.getElementById('emailPopup');
+      const closePopupButton = document.getElementById('closePopup');
+   
+      // Show the popup when the "Join" button is clicked
+      showPopupButton.addEventListener('click', () => {
+         emailPopup.classList.add("active");
+         emailPopup.style.display = 'block';
+      });
+   
+      // Close the popup when the "Close" button is clicked
+      closePopupButton.addEventListener('click', () => {
+         emailPopup.style.display = 'none';
+         emailPopup.classList.remove("active");
+      });
+      window._klOnsite = window._klOnsite || [];
+      window._klOnsite.push(['openForm', 'TWDFkd']);
+   </script>
 </body>

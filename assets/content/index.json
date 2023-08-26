@@ -258,7 +258,7 @@
             "lucid-cosmos"
          ],
          "title": "The Beginning",
-         "type": "ep"
+         "type": "single"
       },
       "dimensional-odyssey": {
          "cover": "dimensional-odyssey.jpg",
@@ -267,7 +267,7 @@
             "space"
          ],
          "title": "Dimensional Odyssey",
-         "type": "ep"
+         "type": "single"
       },
       "galaxies": {
          "cover": "galaxies.jpg",
@@ -278,7 +278,7 @@
             "nightmares"
          ],
          "title": "Galaxies",
-         "type": "ep"
+         "type": "single"
       },
       "revolution": {
          "cover": "revolution.jpg",
@@ -288,7 +288,7 @@
             "velocity"
          ],
          "title": "Revolution",
-         "type": "ep"
+         "type": "single"
       },
       "overdrive": {
          "cover": "overdrive.jpg",
@@ -297,7 +297,7 @@
             "vengeance"
          ],
          "title": "Overdrive",
-         "type": "ep"
+         "type": "single"
       },
       "vβ": {
          "cover": "vβ.jpg",
@@ -307,7 +307,7 @@
             "perpetual-groove"
          ],
          "title": "vβ",
-         "type": "ep"
+         "type": "single"
       },
       "temporal-odyssey": {
          "cover": "temporal-odyssey.jpg",
@@ -324,7 +324,7 @@
             "ancient-tales-remix"
          ],
          "title": "Continuum",
-         "type": "ep"
+         "type": "single"
       },
       "limbo": {
          "cover": "limbo.png",
@@ -333,7 +333,7 @@
             "chicken-dance"
          ],
          "title": "Limbo",
-         "type": "ep"
+         "type": "single"
       },
       "damnation": {
          "cover": "damnation.png",
@@ -342,7 +342,7 @@
             "falling-from-mars"
          ],
          "title": "Damnation",
-         "type": "ep"
+         "type": "single"
       },
       "permanence": {
          "cover": "permanence.jpg",
@@ -359,7 +359,7 @@
             "rituals"
          ],
          "title": "Ignition",
-         "type": "ep"
+         "type": "single"
       },
       "blind-tension": {
          "cover": "blind-tension.jpg",
@@ -368,7 +368,7 @@
             "element-10"
          ],
          "title": "Blind Tension",
-         "type": "ep"
+         "type": "single"
       },
       "retro": {
          "cover": "retro.gif",
@@ -426,39 +426,23 @@
          ],
          "title": "ornate new soul / to be happy",
          "type": "single"
-      },
-      "someplace": {
-         "cover": "someplace.jpg",
-         "members": [
-            "altered-state-of-mind",
-            "rendezvous-proving-you-exist"
-         ],
-         "title": "someplace.",
-         "type": "ep"
       }
    },
    "index": [
-      "archives",
       "the-beginning",
-      "dimensional-odyssey",
-      "galaxies",
       "revolution",
       "overdrive",
       "vβ",
-      "temporal-odyssey",
-      "continuum",
-      "limbo",
+      "charlatan-of-maturity",
       "damnation",
       "permanence",
       "ignition",
       "blind-tension",
+      "memory-loss",
       "retro",
       "klondike",
-      "charlatan-of-maturity",
-      "memory-loss",
-      "springtime-lilacs",
-      "pls-n-ty",
-      "into-the-abliss",
-      "someplace"
+      "continuum",
+      "temporal-odyssey",
+      "springtime-lilacs"
    ]
 }
