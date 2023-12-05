@@ -218,7 +218,7 @@
       },
       "pls-n-ty": {
          "source": "pls-n-ty.mp3",
-         "title": "pls & ty (feat. Pasithea)",
+         "title": "pls & ty (feat. pasithea)",
          "type": "audio",
          "date": "Sep 25, 2022"
       },
@@ -239,6 +239,12 @@
          "title": "rendezvous proving you exist",
          "type": "audio",
          "date": "Nov 28, 2022"
+      },
+      "autumn-waters": {
+         "source": "autumn-waters.mp3",
+         "title": "autumn waters (feat. pasithea & thehappykiwi)",
+         "type": "audio",
+         "date": "Nov 1, 2023"
       }
    },
    "groups": {
@@ -278,7 +284,7 @@
             "nightmares"
          ],
          "title": "Galaxies",
-         "type": "single"
+         "type": "ep"
       },
       "revolution": {
          "cover": "revolution.jpg",
@@ -416,7 +422,7 @@
          "members": [
             "pls-n-ty"
          ],
-         "title": "pls & ty (ft. Pasithea)",
+         "title": "pls & ty (feat. pasithea)",
          "type": "single"
       },
       "into-the-abliss": {
@@ -426,23 +432,37 @@
          ],
          "title": "ornate new soul / to be happy",
          "type": "single"
+      },
+      "autumn-waters": {
+         "cover": "autumn-waters.jpg",
+         "members": [
+            "autumn-waters"
+         ],
+         "title": "autumn waters (feat. Pasithea & thehappykiwi)",
+         "type": "single"
       }
    },
    "index": [
       "the-beginning",
+      "dimensional-odyssey",
+      "galaxies",
       "revolution",
       "overdrive",
       "vβ",
-      "charlatan-of-maturity",
+      "temporal-odyssey",
+      "continuum",
+      "limbo",
       "damnation",
       "permanence",
       "ignition",
       "blind-tension",
-      "memory-loss",
       "retro",
       "klondike",
-      "continuum",
-      "temporal-odyssey",
-      "springtime-lilacs"
+      "charlatan-of-maturity",
+      "memory-loss",
+      "springtime-lilacs",
+      "pls-n-ty",
+      "into-the-abliss",
+      "autumn-waters"
    ]
 }
