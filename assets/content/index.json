@@ -245,6 +245,144 @@
          "title": "autumn waters (feat. pasithea & thehappykiwi)",
          "type": "audio",
          "date": "Nov 1, 2023"
+      },
+      "the-storm-of-echoes": {
+         "source": "the-storm-of-echoes.mp3",
+         "title": "The Storm of Echoes",
+         "type": "audio",
+         "date": "Nov 15, 2023"
+      },
+      "abliss": {
+         "source": "abliss.mp3",
+         "title": "Abliss",
+         "type": "audio",
+         "date": "Nov 13, 2023"
+      },
+      "grandiloquous-disguises": {
+         "source": "grandiloquous-disguises.mp3",
+         "title": "grandiloquous disguises",
+         "type": "audio",
+         "date": "Dec 5, 2023"
+      },
+      "oxygen-optional": {
+         "source": "oxygen-optional.mp3",
+         "title": "oxygen optional !",
+         "type": "audio",
+         "date": "Dec 5, 2023"
+      },
+      "white-little-lie-with-closed-eyes": {
+         "source": "white-little-lie-with-closed-eyes.mp3",
+         "title": "white little lie with closed eyes",
+         "type": "audio",
+         "date": "Dec 5, 2023"
+      },
+      "kitten": {
+         "source": "kitten.mp3",
+         "title": "This is a kitten i found. (feat. Nathan Naberezny)",
+         "type": "audio",
+         "date": "Dec 5, 2023"
+      },
+      "stylus-nails-impale-apostles": {
+         "source": "stylus-nails-impale-apostles.mp3",
+         "title": "stylus nails impale apostles",
+         "type": "audio",
+         "date": "Dec 5, 2023"
+      },
+      "inornate-old-husk": {
+         "source": "inornate-old-husk.mp3",
+         "title": "inornate old husk / listless think tank",
+         "type": "audio",
+         "date": "Dec 5, 2023"
+      },
+      "arachni-boy": {
+         "source": "arachni-boy.mp3",
+         "title": "Arachni-Boy: No Apparent Path to Residence",
+         "type": "audio",
+         "date": "Dec 5, 2023"
+      },
+      "apathetical-twattin-rodent": {
+         "source": "apathetical-twattin-rodent.mp3",
+         "title": "apathetical twattin rodent (wait what the scallops thats me)",
+         "type": "audio",
+         "date": "Dec 5, 2023"
+      },
+      "dear-mahlon": {
+         "source": "dear-mahlon.mp3",
+         "title": "Dear Mahlon, please leave me. (feat. Nathan Naberezny)",
+         "type": "audio",
+         "date": "Dec 5, 2023"
+      },
+      "single-cell-organism": {
+         "source": "single-cell-organism.mp3",
+         "title": "im functioning like a single cell organism :P",
+         "type": "audio",
+         "date": "Dec 5, 2023"
+      },
+      "fishy-fish-fish": {
+         "source": "fishy-fish-fish.mp3",
+         "title": "fishy fish fish in a fishy fiscal world",
+         "type": "audio",
+         "date": "Dec 5, 2023"
+      },
+      "new-server": {
+         "source": "new-server.mp3",
+         "title": "New server 107.170.29.79",
+         "type": "audio",
+         "date": "Dec 5, 2023"
+      },
+      "aw": {
+         "source": "aw.mp3",
+         "title": "autumn waters (feat. pasithea & the happykiwi)",
+         "type": "audio",
+         "date": "Dec 5, 2023"
+      },
+      "late-stage-loser": {
+         "source": "late-stage-loser.mp3",
+         "title": "late stage loser",
+         "type": "audio",
+         "date": "Dec 5, 2023"
+      },
+      "late-night-mornings": {
+         "source": "late-night-mornings.mp3",
+         "title": "late night mornings",
+         "type": "audio",
+         "date": "Dec 5, 2023"
+      },
+      "silly-goofy-intrusivity": {
+         "source": "silly-goofy-intrusivity.mp3",
+         "title": "silly goofy intrusivity",
+         "type": "audio",
+         "date": "Dec 5, 2023"
+      },
+      "adid": {
+         "source": "adid.mp3",
+         "title": "Attachment-Definite/Insensitivity Disorder",
+         "type": "audio",
+         "date": "Dec 5, 2023"
+      },
+      "brocken-spectre": {
+         "source": "brocken-spectre.mp3",
+         "title": "Thou Art Thine Brocken Spectre (Or, Reminders To Fix My Bike)",
+         "type": "audio",
+         "date": "Dec 5, 2023"
+      },
+      "altered-state-of-mind": {
+         "source": "altered-state-of-mind.mp3",
+         "title": "altered state of mind",
+         "type": "audio",
+         "date": "Dec 5, 2023"
+      },
+      "athirst-or-who": {
+         "source": "athirst-or-who.mp3",
+         "title": "athirst for who ?",
+         "type": "audio",
+         "date": "Dec 5, 2023"
+      },
+      "im-going-to-start-screaming": {
+         "source": "im-going-to-start-screaming.mp3",
+         "title": "im going to start screaming",
+         "type": "audio",
+         "date": "Dec 5, 2023"
       }
    },
    "groups": {
@@ -440,6 +578,53 @@
          ],
          "title": "autumn waters (feat. Pasithea & thehappykiwi)",
          "type": "single"
+      },
+      "abliss": {
+         "cover": "abliss.jpg",
+         "members": [
+            "abliss"
+         ],
+         "title": "Abliss",
+         "type": "single",
+         "date": "Nov 13, 2023"
+      },
+      "the-storm-of-echoes": {
+         "cover": "the-storm-of-echoes.jpg",
+         "members": [
+            "the-storm-of-echoes"
+         ],
+         "title": "The Storm of Echoes",
+         "type": "single",
+         "date": "Nov 15, 2023"
+      },
+      "ornate-new-soul-is-naive": {
+         "cover": "onis.JPEG",
+         "members": [
+            "grandiloquous-disguises",
+            "oxygen-optional",
+            "white-little-lie-with-closed-eyes",
+            "kitten",
+            "stylus-nails-impale-apostles",
+            "inornate-old-husk",
+            "arachni-boy",
+            "apathetical-twattin-rodent",
+            "dear-mahlon",
+            "single-cell-organism",
+            "fishy-fish-fish",
+            "new-server",
+            "aw",
+            "late-stage-loser",
+            "late-night-mornings",
+            "silly-goofy-intrusivity",
+            "adid",
+            "brocken-spectre",
+            "altered-state-of-mind",
+            "athirst-or-who",
+            "im-going-to-start-screaming"
+         ],
+         "title": "Ornate New Soul is Naïve",
+         "type": "album",
+         "date": "Dec 5, 2023"
       }
    },
    "index": [
@@ -463,6 +648,9 @@
       "springtime-lilacs",
       "pls-n-ty",
       "into-the-abliss",
-      "autumn-waters"
+      "autumn-waters",
+      "abliss",
+      "the-storm-of-echoes",
+      "ornate-new-soul-is-naive"
    ]
 }
